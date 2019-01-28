@@ -12,6 +12,9 @@
 		4BDA3E3221FDFC5B006199FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA3E3021FDFC5B006199FF /* Main.storyboard */; };
 		4BDA3E3421FDFC5D006199FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA3E3321FDFC5D006199FF /* Assets.xcassets */; };
 		4BDA3E3721FDFC5D006199FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA3E3521FDFC5D006199FF /* LaunchScreen.storyboard */; };
+		4BDA3E3F21FDFEA4006199FF /* WaterPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA3E3E21FDFEA4006199FF /* WaterPlane.swift */; };
+		4BDA3E4121FE0029006199FF /* Water.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA3E4021FE0029006199FF /* Water.metal */; };
+		4BDA3E4321FE147D006199FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA3E4221FE147D006199FF /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4BDA3E3321FDFC5D006199FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BDA3E3621FDFC5D006199FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BDA3E3821FDFC5D006199FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDA3E3E21FDFEA4006199FF /* WaterPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPlane.swift; sourceTree = "<group>"; };
+		4BDA3E4021FE0029006199FF /* Water.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Water.metal; sourceTree = "<group>"; };
+		4BDA3E4221FE147D006199FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				4BDA3E3321FDFC5D006199FF /* Assets.xcassets */,
 				4BDA3E3521FDFC5D006199FF /* LaunchScreen.storyboard */,
 				4BDA3E3821FDFC5D006199FF /* Info.plist */,
+				4BDA3E3E21FDFEA4006199FF /* WaterPlane.swift */,
+				4BDA3E4021FE0029006199FF /* Water.metal */,
+				4BDA3E4221FE147D006199FF /* art.scnassets */,
 			);
 			path = LowPolyWater;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BDA3E3721FDFC5D006199FF /* LaunchScreen.storyboard in Resources */,
+				4BDA3E4321FE147D006199FF /* art.scnassets in Resources */,
 				4BDA3E3421FDFC5D006199FF /* Assets.xcassets in Resources */,
 				4BDA3E3221FDFC5B006199FF /* Main.storyboard in Resources */,
 			);
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BDA3E2F21FDFC5B006199FF /* ViewController.swift in Sources */,
+				4BDA3E3F21FDFEA4006199FF /* WaterPlane.swift in Sources */,
 				4BDA3E2D21FDFC5B006199FF /* AppDelegate.swift in Sources */,
+				4BDA3E4121FE0029006199FF /* Water.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
